@@ -1,0 +1,21 @@
+.loading{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(37, 37, 37), rgb(0, 0, 0)) ;
+    display: grid;
+    place-items: center;
+    max-width: 100%;
+}
+.wait{
+    width: 8vmax;
+    height: 8vmax;
+    border-bottom: 3px solid rgb(241, 241, 241);
+    border-radius: 50%;
+    animation: loadingRotate 900ms linear infinite;
+}
+
+@keyframes loadingRotate {
+    to{
+        transform: rotate(360deg);
+    }
+}
