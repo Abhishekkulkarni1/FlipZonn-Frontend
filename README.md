@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# This includes frontend code of my MERN Website FlipZonn
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
